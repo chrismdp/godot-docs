@@ -172,10 +172,8 @@ combine the two lines into one, but we'll need to use
 ``player_max_health`` again later in the tutorial.
 
 ``Player.gd`` sets the ``health`` to ``max_health`` at the start of the
-game, so we could work with this. Why do we still use ``max_health``?
-There are two reasons:
-
-We don't have the guarantee that ``health`` will always equal
+game, so we could work with this. Why do we still use ``max_health``? The
+reason is that we don't have the guarantee that ``health`` will always equal
 ``max_health``: a future version of the game may load a level where
 the player already lost some health.
 
